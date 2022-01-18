@@ -1,2 +1,6 @@
 # NYPD_MV_Collisions
 This includes the exploratory data analysis of the accidents occurred in the New York Borough.
+
+The first task of this project involved extracting the data from BigQuery which is possible either using SQL or Python. The file BigQuery_Data_Extraction.ipynb is a google colab file which consists of the methodology used to extract the public data from BigQuery to colab. The next step which is the most important in any data analysis project i.e. Data Pre-Processing. Several natural steps were followed to clean the data and plot a basic visualisation to compare different Borough's accident reports. As a last step in this file, the data for Borough BROOKLYN was extracted and saved to the local machine for further Exploratory Data Analysis. Another proposed method using SQL was also mentioned to extract the BROOKLYN data but the limitation of accessing GCS bucket without billing information led to the use of Python for this part of the project before Exploratory Data Analysis. 
+
+The final task which is the Exploratory Data Analysis is being carried out in the separate jupyter notebook file Brooklyn_Analysis.ipynb carrying out several interactive visualisations to summarise the data, recommendation for reducing the traffic, and future work. 
